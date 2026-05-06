@@ -1,0 +1,2668 @@
+fileFormatVersion: 2
+guid: 789b4ca7893b7924fb2d0ffc4ab3e61f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_190
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b266125ace52b48b933fc8525d3b1f
+      internalID: -280520312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_191
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc6832125257694d8d28986b26c8591
+      internalID: 1192112095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_242
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5b3248da97ef24eb7cc3fcb795f4e9
+      internalID: -817181123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_253
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 210
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09594cd764ef8341b460ed14dfeb44e
+      internalID: -778951563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_275
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eb751ab7705b043816589495c3be69
+      internalID: -2101930366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_324
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 146
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb03898955b2b74590499b7cc38b0e3
+      internalID: 1775023157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_325
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 144
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c857bc291360e4bae6bf3547f5c74e
+      internalID: -714387752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_344
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b39811459bbe254db995e85787e2925
+      internalID: 1312611793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_345
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb6079854e6ba44eb78a8801903e53b
+      internalID: 743664450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_346
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a716249dd3f303438e9c3d839aa1a08
+      internalID: -924018485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_369
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a3fe1ecb461444dbb34cca8a025c93
+      internalID: -349781257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_370
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 96
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5220c763b1b531d43a463a15dd6bef36
+      internalID: -280421632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_371
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9545965a5ccab9348acbabbd5a69f728
+      internalID: -1794792723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_393
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2300dfbe342cb824aa9277b4e62ea891
+      internalID: 19957117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_394
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5fb4483263f5544802e97204e20944
+      internalID: 1961137531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_395
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5dbf78132cb57498c556b1891575f1
+      internalID: 1111451311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_396
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b278288d831dc9e4d9b91835f7bb4458
+      internalID: -1378490303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_397
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efac85a7ea92b5144bc43d6190ec2014
+      internalID: 1457701477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_407
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a4b5170d54f9f42b367a50e10b742b
+      internalID: -454032821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_408
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3699c35d8cf54714abc08e6f1f43096a
+      internalID: 1888277396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_422
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822551488a29df44abd88c0dfd09f203
+      internalID: 127006989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_423
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0ec3f352185fc43b438bcfa214aec5
+      internalID: -916352714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 384
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599b8ad048b0cc74ab25c7b970f39da6
+      internalID: -1369266648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 384
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510e50d520e43ae448419a2a132a204a
+      internalID: -1450657434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 384
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1849b677817a84a8687789aaa7dcd7
+      internalID: -1996641309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 384
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d72a73c522d4374aa6552aaf2556254
+      internalID: -2044122769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 317
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928a68534d9d5de4f88b4ee083fc2dd3
+      internalID: -841326750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 269
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a51efbdf0937cb48ac16426d177787f
+      internalID: 1933801304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e07b623e7dc1ce4fac6d9551ad053b1
+      internalID: -1393739155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 288
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b162822a3acef4a9669ddb9598003a
+      internalID: 1785334204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 256
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9745e3d4ba1931d46b13e3d063427125
+      internalID: -670108106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 256
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fdbc8be4606564b97431e9c635adb5
+      internalID: 1514822031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 256
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34be0d9affe3202438e93bea9f8a7058
+      internalID: 1688129542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_12
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 256
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eebd214c1837248ab8fd2bdaca2788
+      internalID: 174017744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 221
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88935a3faef308148aa56562c4bfd7ca
+      internalID: 1512630854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 210
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396576d71bdbfa2478f82bf7c63e26d5
+      internalID: 580664217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 210
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb9fc4280b61f84999758b40c75312e
+      internalID: -448826759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_16
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 210
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ef7aeb3c1a8ae4887223f1e2c96e38
+      internalID: 268330314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 210
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d652af02c89b764abd6c2d2c38f26b8
+      internalID: -838580332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_18
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 210
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c299e227177a24db6ff4c007c8c2f7
+      internalID: -390047280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 210
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92131d4f4ac04c542bcc04be1917c971
+      internalID: -1167297518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_20
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 210
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc87e06f5191c44784b340da11fe413
+      internalID: -1112937598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_21
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 210
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c063f9bd6685364384ef29088959499
+      internalID: 2078622994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 176
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d7370108920f24cb3c4c543374720c
+      internalID: -1662562646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_23
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 176
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c5000f9f9447f4e86a4df7fdcbf476
+      internalID: -709638246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_24
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 161
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48e22f65bc85a74a8b526e252a01b19
+      internalID: -2135487114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 161
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0501a8029e58f8c42a520396f1353123
+      internalID: 1708582980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_26
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 161
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b41868e1b5cae4b8eb4ba6a688edf7
+      internalID: -1029719284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_27
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 161
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0525a25d0a6adc43a8040e2cfb8ad5e
+      internalID: -397654960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_28
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 161
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a726ed4ae0ca394194ff68633c27885
+      internalID: 73706549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_29
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 161
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6d31298b40f264dbb12c5c80a21bc7
+      internalID: -151715842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_30
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 161
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b108578c56d4e74fa4f6228565b3ab6
+      internalID: -618103122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_31
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 161
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058cb0d0e2586454f99f67eda70479f8
+      internalID: -1595522401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_32
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 166
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e6e1e4c87024547921b1e28195c6a9
+      internalID: -1163436141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_33
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 161
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e05870490bbf547b4fd9d85725cd46
+      internalID: -143495243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_34
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 161
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff3037fb79d36646b8fe1900396556f
+      internalID: 40129587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 112
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc25f4310a2ecc4991c8303018ad18c
+      internalID: -1691582862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_36
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 112
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1746febe04df4b40aef59f94683d69e
+      internalID: -1191153823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_37
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 128
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db19c1e5970d664b8c14450b5051bce
+      internalID: -634496600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_38
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 128
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded9ce61ea24d174dbe60d2cfd7005d5
+      internalID: -536730415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_39
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 128
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b757bbaaca39448b851b870bd20e04
+      internalID: 1027362158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_40
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 129
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b12261272eb8447a9f72863a6c650d
+      internalID: 151258308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_41
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 128
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16514fe09835e2542b267c3a5fca8c74
+      internalID: -62187237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_42
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 118
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f4c8f2077eb15469ab0dd7f9bf4437
+      internalID: 1761930780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_43
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 118
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe095d3553352b040aea142c8dc297ce
+      internalID: -375233538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_44
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 118
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf2567f421edac42bfe39ccf9efd881
+      internalID: 927081148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_45
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 118
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b6f5d7b8192c34cbc55a0d9d2a2cf4
+      internalID: -2038493802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_47
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 80
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9c7632cf2955947b234a224294e3fc
+      internalID: 1054789388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_48
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 80
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e88ea5ba894a554c81550c6113f5c5a
+      internalID: -2037452116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5afe5e0a6be1541b098d53cc504478
+      internalID: 2135551872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_51
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 80
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0574084a7d6e0d498b03118290f9510
+      internalID: -1258178636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_52
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 80
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef0de485529ea643b4082e9073a3201
+      internalID: 326082354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f2b2c5ece344f4b96b12e06e9dc9a3
+      internalID: 747431537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_54
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b6101d4f1337146b4483a59d8b1ed8
+      internalID: -1397578102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_55
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b421b1aee06e04ab9812078f1cee9e
+      internalID: -1005411759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_56
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816680dd60f9bfa4b8ecdb1c74d60632
+      internalID: 1910094606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_57
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 70
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b57cfc4476308b4ba0a4c52ba8d65b9
+      internalID: -2036297899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_60
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 32
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5a3dc152b509a478e5a0ba0206bd89
+      internalID: 960107729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_61
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 32
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475fb2aa1b8932c4bb28802f996c86d4
+      internalID: -1533735941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_62
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8546721c3f329e4ba0a400524159e6a
+      internalID: 17566285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_63
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 49
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbb0bf1fe8bfab4b87fe2083656e316
+      internalID: -1058559846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_64
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 49
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e880ef5ff8456664bad06558dbdf44b9
+      internalID: 619217483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_68
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 32
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a2333bc2b497f48bbbbe0944a15516
+      internalID: -1320199828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_69
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 32
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c818a46d424c73e44845ea0479cbc322
+      internalID: 1375125051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_70
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5823f6584e61044ba08aea7dc894b69
+      internalID: 1038199123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_71
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c92a0c7124776f47a6c3a397278fe3b
+      internalID: 318297171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_72
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c61fb13e5636a4dab469ed999bb0e5
+      internalID: 620754582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_73
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b407807d1add3349959c2a3ffc978fd
+      internalID: -1246348749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BR wall
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c2c5f9de3f4db4687dd634b8213555
+      internalID: 385380377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b245cd04771e3540b35c041596f7f63
+      internalID: -914008803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TL wall
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0631d78f04a87a5498cdf3beea08bc9c
+      internalID: -1596147064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: L wall
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c0ecb0357fad447ba7e87a00896680
+      internalID: -5546379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f8b3fb3c02204496a6e33fee16d15
+      internalID: -1190805015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TR wall
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 100
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbbf2906b29661449976b230f545059
+      internalID: 1914525162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R wall
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d077a844a32215243bc4f0a64141d58c
+      internalID: 600133661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_66
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2a058e7b2afea468cd84d33bebb185
+      internalID: 125296240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab04d6983b5c3640ac2cc386a8e4ea6
+      internalID: 735074869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BL wall
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cd76b49c2b27e44ac0909657239f56
+      internalID: -2114179907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmoothdungeonTileset (1)_78
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 49
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29ff0ad64462b5438a6561bc34b6e18
+      internalID: 1893472879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BL wall: -2114179907
+      BR wall: 385380377
+      L wall: -5546379
+      R wall: 600133661
+      SmoothdungeonTileset (1)_0: -1369266648
+      SmoothdungeonTileset (1)_1: -1450657434
+      SmoothdungeonTileset (1)_10: 1514822031
+      SmoothdungeonTileset (1)_100: -1302178317
+      SmoothdungeonTileset (1)_101: 708360522
+      SmoothdungeonTileset (1)_102: -861814330
+      SmoothdungeonTileset (1)_103: -1988398455
+      SmoothdungeonTileset (1)_104: -277906801
+      SmoothdungeonTileset (1)_105: 1380723588
+      SmoothdungeonTileset (1)_106: -903423796
+      SmoothdungeonTileset (1)_107: -1693076213
+      SmoothdungeonTileset (1)_108: -1843528699
+      SmoothdungeonTileset (1)_109: 1790565677
+      SmoothdungeonTileset (1)_11: 1688129542
+      SmoothdungeonTileset (1)_110: -424281648
+      SmoothdungeonTileset (1)_111: 1584159592
+      SmoothdungeonTileset (1)_112: 1398677883
+      SmoothdungeonTileset (1)_113: -208817511
+      SmoothdungeonTileset (1)_114: -626704118
+      SmoothdungeonTileset (1)_115: 1311262185
+      SmoothdungeonTileset (1)_116: 1736970400
+      SmoothdungeonTileset (1)_117: 1700287972
+      SmoothdungeonTileset (1)_118: -679033462
+      SmoothdungeonTileset (1)_119: -1347472436
+      SmoothdungeonTileset (1)_12: 174017744
+      SmoothdungeonTileset (1)_120: -746746751
+      SmoothdungeonTileset (1)_121: 1243104308
+      SmoothdungeonTileset (1)_122: 2134010381
+      SmoothdungeonTileset (1)_123: -1978002455
+      SmoothdungeonTileset (1)_124: -1271243264
+      SmoothdungeonTileset (1)_125: -87675447
+      SmoothdungeonTileset (1)_126: -1818709215
+      SmoothdungeonTileset (1)_127: -1563868977
+      SmoothdungeonTileset (1)_128: 768386720
+      SmoothdungeonTileset (1)_129: 431458788
+      SmoothdungeonTileset (1)_13: 1512630854
+      SmoothdungeonTileset (1)_130: -1579120513
+      SmoothdungeonTileset (1)_131: -1558182652
+      SmoothdungeonTileset (1)_132: -749767404
+      SmoothdungeonTileset (1)_133: 525597578
+      SmoothdungeonTileset (1)_134: -1257018857
+      SmoothdungeonTileset (1)_135: -255505953
+      SmoothdungeonTileset (1)_136: -1046268385
+      SmoothdungeonTileset (1)_137: -366015596
+      SmoothdungeonTileset (1)_138: 412183155
+      SmoothdungeonTileset (1)_139: -350996108
+      SmoothdungeonTileset (1)_14: 580664217
+      SmoothdungeonTileset (1)_140: -56635499
+      SmoothdungeonTileset (1)_141: -797934692
+      SmoothdungeonTileset (1)_142: -944827216
+      SmoothdungeonTileset (1)_143: -2117323848
+      SmoothdungeonTileset (1)_144: -1920336913
+      SmoothdungeonTileset (1)_145: 875228675
+      SmoothdungeonTileset (1)_146: 837530629
+      SmoothdungeonTileset (1)_147: -149214196
+      SmoothdungeonTileset (1)_148: 970227628
+      SmoothdungeonTileset (1)_149: 467903345
+      SmoothdungeonTileset (1)_15: -448826759
+      SmoothdungeonTileset (1)_150: 1557247404
+      SmoothdungeonTileset (1)_151: 1562227708
+      SmoothdungeonTileset (1)_152: -391212546
+      SmoothdungeonTileset (1)_153: 1431999625
+      SmoothdungeonTileset (1)_154: -1732843285
+      SmoothdungeonTileset (1)_155: 58862348
+      SmoothdungeonTileset (1)_156: -1447760757
+      SmoothdungeonTileset (1)_157: -563348558
+      SmoothdungeonTileset (1)_158: -1500866025
+      SmoothdungeonTileset (1)_159: 258415500
+      SmoothdungeonTileset (1)_16: 268330314
+      SmoothdungeonTileset (1)_160: 57718433
+      SmoothdungeonTileset (1)_161: 138677390
+      SmoothdungeonTileset (1)_162: 1522595537
+      SmoothdungeonTileset (1)_163: -552892360
+      SmoothdungeonTileset (1)_164: 47318005
+      SmoothdungeonTileset (1)_165: 128972343
+      SmoothdungeonTileset (1)_166: -1118154873
+      SmoothdungeonTileset (1)_167: 517174140
+      SmoothdungeonTileset (1)_168: -1530992399
+      SmoothdungeonTileset (1)_169: -848130101
+      SmoothdungeonTileset (1)_17: -838580332
+      SmoothdungeonTileset (1)_170: -2031294295
+      SmoothdungeonTileset (1)_171: -657040121
+      SmoothdungeonTileset (1)_172: -924175084
+      SmoothdungeonTileset (1)_173: -1761403454
+      SmoothdungeonTileset (1)_174: 448219870
+      SmoothdungeonTileset (1)_175: -1098814831
+      SmoothdungeonTileset (1)_176: -1436092055
+      SmoothdungeonTileset (1)_177: -1400577999
+      SmoothdungeonTileset (1)_178: -1085800749
+      SmoothdungeonTileset (1)_179: -62149456
+      SmoothdungeonTileset (1)_18: -390047280
+      SmoothdungeonTileset (1)_180: 194593050
+      SmoothdungeonTileset (1)_181: 865245937
+      SmoothdungeonTileset (1)_182: -757848799
+      SmoothdungeonTileset (1)_183: -2079801011
+      SmoothdungeonTileset (1)_184: 1856158557
+      SmoothdungeonTileset (1)_185: 839018786
+      SmoothdungeonTileset (1)_186: -636259214
+      SmoothdungeonTileset (1)_187: -1277123601
+      SmoothdungeonTileset (1)_188: 1955311932
+      SmoothdungeonTileset (1)_189: 812342818
+      SmoothdungeonTileset (1)_19: -1167297518
+      SmoothdungeonTileset (1)_190: -280520312
+      SmoothdungeonTileset (1)_191: 1192112095
+      SmoothdungeonTileset (1)_192: 900791397
+      SmoothdungeonTileset (1)_193: -1050454439
+      SmoothdungeonTileset (1)_194: 1147297369
+      SmoothdungeonTileset (1)_195: -641284275
+      SmoothdungeonTileset (1)_196: 2044228946
+      SmoothdungeonTileset (1)_197: -1542589158
+      SmoothdungeonTileset (1)_198: -690047670
+      SmoothdungeonTileset (1)_199: -943041094
+      SmoothdungeonTileset (1)_2: -1996641309
+      SmoothdungeonTileset (1)_20: -1112937598
+      SmoothdungeonTileset (1)_200: -133772101
+      SmoothdungeonTileset (1)_201: -1816516419
+      SmoothdungeonTileset (1)_202: 2129100197
+      SmoothdungeonTileset (1)_203: 1592987026
+      SmoothdungeonTileset (1)_204: -1390337717
+      SmoothdungeonTileset (1)_205: -839065226
+      SmoothdungeonTileset (1)_206: -1224363469
+      SmoothdungeonTileset (1)_207: -1022604167
+      SmoothdungeonTileset (1)_208: 253297961
+      SmoothdungeonTileset (1)_209: 1332902046
+      SmoothdungeonTileset (1)_21: 2078622994
+      SmoothdungeonTileset (1)_210: 1366895585
+      SmoothdungeonTileset (1)_211: 90719772
+      SmoothdungeonTileset (1)_212: -244038506
+      SmoothdungeonTileset (1)_213: 812260202
+      SmoothdungeonTileset (1)_214: -2075749167
+      SmoothdungeonTileset (1)_215: -114885190
+      SmoothdungeonTileset (1)_216: 1701929725
+      SmoothdungeonTileset (1)_217: -1969982112
+      SmoothdungeonTileset (1)_218: -1891264545
+      SmoothdungeonTileset (1)_219: 370904721
+      SmoothdungeonTileset (1)_22: -1662562646
+      SmoothdungeonTileset (1)_220: -2099841965
+      SmoothdungeonTileset (1)_221: -815487476
+      SmoothdungeonTileset (1)_222: 1942462014
+      SmoothdungeonTileset (1)_223: 632839602
+      SmoothdungeonTileset (1)_224: -323974426
+      SmoothdungeonTileset (1)_225: 645905394
+      SmoothdungeonTileset (1)_226: 135630065
+      SmoothdungeonTileset (1)_227: 188485737
+      SmoothdungeonTileset (1)_228: -382705180
+      SmoothdungeonTileset (1)_229: 630607794
+      SmoothdungeonTileset (1)_23: -709638246
+      SmoothdungeonTileset (1)_230: 1059387723
+      SmoothdungeonTileset (1)_231: -1527136523
+      SmoothdungeonTileset (1)_232: 1306273114
+      SmoothdungeonTileset (1)_233: -186211473
+      SmoothdungeonTileset (1)_234: 1175277027
+      SmoothdungeonTileset (1)_235: -2133034885
+      SmoothdungeonTileset (1)_236: -834770551
+      SmoothdungeonTileset (1)_237: 286310471
+      SmoothdungeonTileset (1)_238: -1155896001
+      SmoothdungeonTileset (1)_239: -1146994997
+      SmoothdungeonTileset (1)_24: -2135487114
+      SmoothdungeonTileset (1)_240: 1063233808
+      SmoothdungeonTileset (1)_241: 1416220696
+      SmoothdungeonTileset (1)_242: -817181123
+      SmoothdungeonTileset (1)_243: -419243606
+      SmoothdungeonTileset (1)_244: 977859264
+      SmoothdungeonTileset (1)_245: 1930268548
+      SmoothdungeonTileset (1)_246: 1358086415
+      SmoothdungeonTileset (1)_247: 513429053
+      SmoothdungeonTileset (1)_248: -1988911063
+      SmoothdungeonTileset (1)_249: -320950180
+      SmoothdungeonTileset (1)_25: 1708582980
+      SmoothdungeonTileset (1)_250: -2112452435
+      SmoothdungeonTileset (1)_251: -696029934
+      SmoothdungeonTileset (1)_252: -872704221
+      SmoothdungeonTileset (1)_253: -778951563
+      SmoothdungeonTileset (1)_254: -1552529359
+      SmoothdungeonTileset (1)_255: -805350273
+      SmoothdungeonTileset (1)_256: -501778513
+      SmoothdungeonTileset (1)_257: 79322844
+      SmoothdungeonTileset (1)_258: -980161469
+      SmoothdungeonTileset (1)_259: 1096052460
+      SmoothdungeonTileset (1)_26: -1029719284
+      SmoothdungeonTileset (1)_260: -958577974
+      SmoothdungeonTileset (1)_261: -1179114916
+      SmoothdungeonTileset (1)_262: -1982723640
+      SmoothdungeonTileset (1)_263: -1428573821
+      SmoothdungeonTileset (1)_264: -621011703
+      SmoothdungeonTileset (1)_265: -692594830
+      SmoothdungeonTileset (1)_266: -1983252736
+      SmoothdungeonTileset (1)_267: -1810580163
+      SmoothdungeonTileset (1)_268: -1588575118
+      SmoothdungeonTileset (1)_269: -1906870954
+      SmoothdungeonTileset (1)_27: -397654960
+      SmoothdungeonTileset (1)_270: 1083401508
+      SmoothdungeonTileset (1)_271: -402577153
+      SmoothdungeonTileset (1)_272: -1799687573
+      SmoothdungeonTileset (1)_273: 1010835885
+      SmoothdungeonTileset (1)_274: -1113329466
+      SmoothdungeonTileset (1)_275: -2101930366
+      SmoothdungeonTileset (1)_276: -1782511146
+      SmoothdungeonTileset (1)_277: 60365509
+      SmoothdungeonTileset (1)_278: 923325282
+      SmoothdungeonTileset (1)_279: 1726461546
+      SmoothdungeonTileset (1)_28: 73706549
+      SmoothdungeonTileset (1)_280: -1174737119
+      SmoothdungeonTileset (1)_281: 614359217
+      SmoothdungeonTileset (1)_282: 1054155097
+      SmoothdungeonTileset (1)_283: 1471225401
+      SmoothdungeonTileset (1)_284: -823938312
+      SmoothdungeonTileset (1)_285: -1754584702
+      SmoothdungeonTileset (1)_286: 2066642242
+      SmoothdungeonTileset (1)_287: 1771775000
+      SmoothdungeonTileset (1)_288: 2250348
+      SmoothdungeonTileset (1)_289: -383139181
+      SmoothdungeonTileset (1)_29: -151715842
+      SmoothdungeonTileset (1)_290: 839306740
+      SmoothdungeonTileset (1)_291: 2139687296
+      SmoothdungeonTileset (1)_292: -399236434
+      SmoothdungeonTileset (1)_293: 1022554440
+      SmoothdungeonTileset (1)_294: -1062170258
+      SmoothdungeonTileset (1)_295: 1355815683
+      SmoothdungeonTileset (1)_296: -803830049
+      SmoothdungeonTileset (1)_297: 625522546
+      SmoothdungeonTileset (1)_298: -1598026286
+      SmoothdungeonTileset (1)_299: 941608752
+      SmoothdungeonTileset (1)_3: -2044122769
+      SmoothdungeonTileset (1)_30: -618103122
+      SmoothdungeonTileset (1)_300: -1087445951
+      SmoothdungeonTileset (1)_301: 1740162683
+      SmoothdungeonTileset (1)_302: 1095099085
+      SmoothdungeonTileset (1)_303: -1769000173
+      SmoothdungeonTileset (1)_304: -1770033832
+      SmoothdungeonTileset (1)_305: 222009809
+      SmoothdungeonTileset (1)_306: 779452510
+      SmoothdungeonTileset (1)_307: -478211059
+      SmoothdungeonTileset (1)_308: 128381539
+      SmoothdungeonTileset (1)_309: -178731571
+      SmoothdungeonTileset (1)_31: -1595522401
+      SmoothdungeonTileset (1)_310: -1037999955
+      SmoothdungeonTileset (1)_311: -47463239
+      SmoothdungeonTileset (1)_312: -1827877591
+      SmoothdungeonTileset (1)_313: -1443830028
+      SmoothdungeonTileset (1)_314: 1499328604
+      SmoothdungeonTileset (1)_315: 464317556
+      SmoothdungeonTileset (1)_316: -1770762293
+      SmoothdungeonTileset (1)_317: 59196451
+      SmoothdungeonTileset (1)_318: -996802164
+      SmoothdungeonTileset (1)_319: -395132091
+      SmoothdungeonTileset (1)_32: -1163436141
+      SmoothdungeonTileset (1)_320: 29405931
+      SmoothdungeonTileset (1)_321: 1371699813
+      SmoothdungeonTileset (1)_322: 1706875372
+      SmoothdungeonTileset (1)_323: 1832308662
+      SmoothdungeonTileset (1)_324: 1775023157
+      SmoothdungeonTileset (1)_325: -714387752
+      SmoothdungeonTileset (1)_326: -359125991
+      SmoothdungeonTileset (1)_327: 1589523070
+      SmoothdungeonTileset (1)_328: 795566505
+      SmoothdungeonTileset (1)_329: -2003839837
+      SmoothdungeonTileset (1)_33: -143495243
+      SmoothdungeonTileset (1)_330: 386994694
+      SmoothdungeonTileset (1)_331: -1863729828
+      SmoothdungeonTileset (1)_332: -93394281
+      SmoothdungeonTileset (1)_333: -73937285
+      SmoothdungeonTileset (1)_334: 1521536474
+      SmoothdungeonTileset (1)_335: 39628368
+      SmoothdungeonTileset (1)_336: -1077830669
+      SmoothdungeonTileset (1)_337: 826326962
+      SmoothdungeonTileset (1)_338: 12270727
+      SmoothdungeonTileset (1)_339: 23068759
+      SmoothdungeonTileset (1)_34: 40129587
+      SmoothdungeonTileset (1)_340: 1368393844
+      SmoothdungeonTileset (1)_341: 1388795519
+      SmoothdungeonTileset (1)_342: -824892934
+      SmoothdungeonTileset (1)_343: 103797503
+      SmoothdungeonTileset (1)_344: 1312611793
+      SmoothdungeonTileset (1)_345: 743664450
+      SmoothdungeonTileset (1)_346: -924018485
+      SmoothdungeonTileset (1)_347: -34368401
+      SmoothdungeonTileset (1)_348: 1214605038
+      SmoothdungeonTileset (1)_349: -153055476
+      SmoothdungeonTileset (1)_35: -1691582862
+      SmoothdungeonTileset (1)_350: -1970689098
+      SmoothdungeonTileset (1)_351: -795748434
+      SmoothdungeonTileset (1)_352: 804242346
+      SmoothdungeonTileset (1)_353: 696534710
+      SmoothdungeonTileset (1)_354: 1250285991
+      SmoothdungeonTileset (1)_355: -1768298929
+      SmoothdungeonTileset (1)_356: -530022181
+      SmoothdungeonTileset (1)_357: 1014036342
+      SmoothdungeonTileset (1)_358: 1831570145
+      SmoothdungeonTileset (1)_359: -1965808215
+      SmoothdungeonTileset (1)_36: -1191153823
+      SmoothdungeonTileset (1)_360: -1236118186
+      SmoothdungeonTileset (1)_361: 1677990147
+      SmoothdungeonTileset (1)_362: -1207102414
+      SmoothdungeonTileset (1)_363: 106891752
+      SmoothdungeonTileset (1)_364: -912006168
+      SmoothdungeonTileset (1)_365: -1158593272
+      SmoothdungeonTileset (1)_366: 2017101151
+      SmoothdungeonTileset (1)_367: -1813289545
+      SmoothdungeonTileset (1)_368: -99853491
+      SmoothdungeonTileset (1)_369: -349781257
+      SmoothdungeonTileset (1)_37: -634496600
+      SmoothdungeonTileset (1)_370: -280421632
+      SmoothdungeonTileset (1)_371: -1794792723
+      SmoothdungeonTileset (1)_372: 68979960
+      SmoothdungeonTileset (1)_373: -1961190850
+      SmoothdungeonTileset (1)_374: -1596087983
+      SmoothdungeonTileset (1)_375: 953900844
+      SmoothdungeonTileset (1)_376: 1139177861
+      SmoothdungeonTileset (1)_377: -1259875379
+      SmoothdungeonTileset (1)_378: -1818356931
+      SmoothdungeonTileset (1)_379: -1178422695
+      SmoothdungeonTileset (1)_38: -536730415
+      SmoothdungeonTileset (1)_380: 1227583893
+      SmoothdungeonTileset (1)_381: 956065400
+      SmoothdungeonTileset (1)_382: 1136799207
+      SmoothdungeonTileset (1)_383: 369894664
+      SmoothdungeonTileset (1)_384: 156861403
+      SmoothdungeonTileset (1)_385: -1389277879
+      SmoothdungeonTileset (1)_386: 1012942051
+      SmoothdungeonTileset (1)_387: -252997543
+      SmoothdungeonTileset (1)_388: 714064122
+      SmoothdungeonTileset (1)_389: -1962177577
+      SmoothdungeonTileset (1)_39: 1027362158
+      SmoothdungeonTileset (1)_390: 2101583155
+      SmoothdungeonTileset (1)_391: -2007307308
+      SmoothdungeonTileset (1)_392: 2110041181
+      SmoothdungeonTileset (1)_393: 19957117
+      SmoothdungeonTileset (1)_394: 1961137531
+      SmoothdungeonTileset (1)_395: 1111451311
+      SmoothdungeonTileset (1)_396: -1378490303
+      SmoothdungeonTileset (1)_397: 1457701477
+      SmoothdungeonTileset (1)_398: -953801410
+      SmoothdungeonTileset (1)_399: 335500477
+      SmoothdungeonTileset (1)_4: -914008803
+      SmoothdungeonTileset (1)_40: 151258308
+      SmoothdungeonTileset (1)_400: 1360017115
+      SmoothdungeonTileset (1)_401: -465107671
+      SmoothdungeonTileset (1)_402: -850317571
+      SmoothdungeonTileset (1)_403: 54004159
+      SmoothdungeonTileset (1)_404: -1284248619
+      SmoothdungeonTileset (1)_405: 523569132
+      SmoothdungeonTileset (1)_406: 824081430
+      SmoothdungeonTileset (1)_407: -454032821
+      SmoothdungeonTileset (1)_408: 1888277396
+      SmoothdungeonTileset (1)_409: 37315276
+      SmoothdungeonTileset (1)_41: -62187237
+      SmoothdungeonTileset (1)_410: -1264975648
+      SmoothdungeonTileset (1)_411: 1934908679
+      SmoothdungeonTileset (1)_412: -1135172109
+      SmoothdungeonTileset (1)_413: 1475457556
+      SmoothdungeonTileset (1)_414: 722044296
+      SmoothdungeonTileset (1)_415: 1326418716
+      SmoothdungeonTileset (1)_416: 161398920
+      SmoothdungeonTileset (1)_417: -1512048256
+      SmoothdungeonTileset (1)_418: -2135639127
+      SmoothdungeonTileset (1)_419: 505545246
+      SmoothdungeonTileset (1)_42: 1761930780
+      SmoothdungeonTileset (1)_420: 1600198228
+      SmoothdungeonTileset (1)_421: -1405027582
+      SmoothdungeonTileset (1)_422: 127006989
+      SmoothdungeonTileset (1)_423: -916352714
+      SmoothdungeonTileset (1)_424: 1737426042
+      SmoothdungeonTileset (1)_425: -1406348307
+      SmoothdungeonTileset (1)_426: -1665508285
+      SmoothdungeonTileset (1)_427: 424319823
+      SmoothdungeonTileset (1)_428: 1761123186
+      SmoothdungeonTileset (1)_429: 908138330
+      SmoothdungeonTileset (1)_43: -375233538
+      SmoothdungeonTileset (1)_430: -1760410307
+      SmoothdungeonTileset (1)_431: -749500757
+      SmoothdungeonTileset (1)_432: -1577385479
+      SmoothdungeonTileset (1)_433: 718306999
+      SmoothdungeonTileset (1)_434: -71407590
+      SmoothdungeonTileset (1)_435: 221703938
+      SmoothdungeonTileset (1)_44: 927081148
+      SmoothdungeonTileset (1)_45: -2038493802
+      SmoothdungeonTileset (1)_47: 1054789388
+      SmoothdungeonTileset (1)_48: -2037452116
+      SmoothdungeonTileset (1)_49: 2135551872
+      SmoothdungeonTileset (1)_5: -841326750
+      SmoothdungeonTileset (1)_51: -1258178636
+      SmoothdungeonTileset (1)_52: 326082354
+      SmoothdungeonTileset (1)_53: 747431537
+      SmoothdungeonTileset (1)_54: -1397578102
+      SmoothdungeonTileset (1)_55: -1005411759
+      SmoothdungeonTileset (1)_56: 1910094606
+      SmoothdungeonTileset (1)_57: -2036297899
+      SmoothdungeonTileset (1)_58: -1190805015
+      SmoothdungeonTileset (1)_6: 1933801304
+      SmoothdungeonTileset (1)_60: 960107729
+      SmoothdungeonTileset (1)_61: -1533735941
+      SmoothdungeonTileset (1)_62: 17566285
+      SmoothdungeonTileset (1)_63: -1058559846
+      SmoothdungeonTileset (1)_64: 619217483
+      SmoothdungeonTileset (1)_66: 125296240
+      SmoothdungeonTileset (1)_67: 1636334775
+      SmoothdungeonTileset (1)_68: -1320199828
+      SmoothdungeonTileset (1)_69: 1375125051
+      SmoothdungeonTileset (1)_7: -1393739155
+      SmoothdungeonTileset (1)_70: 1038199123
+      SmoothdungeonTileset (1)_71: 318297171
+      SmoothdungeonTileset (1)_72: 620754582
+      SmoothdungeonTileset (1)_73: -1246348749
+      SmoothdungeonTileset (1)_75: -876308501
+      SmoothdungeonTileset (1)_76: 735074869
+      SmoothdungeonTileset (1)_78: 1893472879
+      SmoothdungeonTileset (1)_79: -323066089
+      SmoothdungeonTileset (1)_8: 1785334204
+      SmoothdungeonTileset (1)_80: 491839127
+      SmoothdungeonTileset (1)_81: -1918398105
+      SmoothdungeonTileset (1)_82: 569747943
+      SmoothdungeonTileset (1)_83: 1247053540
+      SmoothdungeonTileset (1)_84: -1693847976
+      SmoothdungeonTileset (1)_85: 1301700148
+      SmoothdungeonTileset (1)_86: -299009813
+      SmoothdungeonTileset (1)_87: 2103592543
+      SmoothdungeonTileset (1)_88: 778293005
+      SmoothdungeonTileset (1)_89: 406047338
+      SmoothdungeonTileset (1)_9: -670108106
+      SmoothdungeonTileset (1)_90: 818779438
+      SmoothdungeonTileset (1)_91: -284563111
+      SmoothdungeonTileset (1)_92: -578829001
+      SmoothdungeonTileset (1)_93: -794529095
+      SmoothdungeonTileset (1)_94: -1557471
+      SmoothdungeonTileset (1)_95: -800826477
+      SmoothdungeonTileset (1)_96: 1404694084
+      SmoothdungeonTileset (1)_97: 120396998
+      SmoothdungeonTileset (1)_98: 647204162
+      SmoothdungeonTileset (1)_99: -1992702916
+      TL wall: -1596147064
+      TR wall: 1914525162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
