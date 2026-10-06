@@ -16,7 +16,7 @@ public class Health : MonoBehaviour
     [SerializeField] Slider healthSlider;
     [SerializeField] float maxHealth;
     [SerializeField] float currentHealth;
-    [SerializeField] bool hasDied;
+    //[SerializeField] bool hasDied;
     [SerializeField] List<DamageTypes> resistantDamageTypes = new List<DamageTypes>();
     public event Action OnDeath;
 
@@ -34,7 +34,7 @@ public class Health : MonoBehaviour
         currentHealth -= effectiveDamage;
         if (currentHealth <=0)
         {
-            hasDied = true;
+            //hasDied = true;
             UpdateSliderTo(0);
             Die();
         }

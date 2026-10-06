@@ -10,7 +10,7 @@ public class Player : Effectable , IMoveable
     
 
     Rigidbody2D rb;
-    [SerializeField]SimpleRandomWalkMapGenerator mapGenerator;
+    [SerializeField]RandomMapGenerator mapGenerator;
     Camera cam;
     [SerializeField] float moveSpeed;
     [SerializeField] Vector2 movementVector;
@@ -20,13 +20,13 @@ public class Player : Effectable , IMoveable
 
     private void Awake()
     {
-        SimpleRandomWalkMapGenerator.EMapGenerationFinished += OnSpawn;
+        RandomMapGenerator.EMapGenerationFinished += OnSpawn;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        mapGenerator = FindObjectOfType<SimpleRandomWalkMapGenerator>();
+        mapGenerator = FindFirstObjectByType<RandomMapGenerator>();
         animManager = GetComponent<AnimationManager>();
         rb = GetComponent<Rigidbody2D>();
         cam = Camera.main;
@@ -80,7 +80,7 @@ public class Player : Effectable , IMoveable
 
     private void OnDestroy()
     {
-        SimpleRandomWalkMapGenerator.EMapGenerationFinished -= OnSpawn;
+        RandomMapGenerator.EMapGenerationFinished -= OnSpawn;
     }
 
     public void SetMoveSpeed(float val)

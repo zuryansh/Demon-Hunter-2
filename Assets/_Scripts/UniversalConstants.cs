@@ -12,7 +12,7 @@ public class UniversalConstants : MonoBehaviour
     }
     public Player _Player
     {
-        get { if (player == null) Debug.LogError("Player was not found when trying to acess", gameObject); return player; }
+        get { if (player == null) Debug.LogWarning("Player was not found when trying to acess", gameObject); return player; }
     }
     public MapManager _MapManager
     {

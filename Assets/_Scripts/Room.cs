@@ -2,15 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 public class Room : MonoBehaviour
 {
     public HashSet<Vector2Int> RoomTiles => roomTiles;
     public HashSet<Vector2Int> WallTiles => wallTiles;
     public TilemapVisualiser TilemapVisualiser => tilemapVisualiser;
-    public SimpleRandomWalkMapGenerator MapGenerator => generator;
+    public RandomMapGenerator MapGenerator => generator;
     public HashSet<Vector2Int> GetRoomTiles() => roomTiles;
-    public SimpleRandomWalkMapGenerator generator;
+    public RandomMapGenerator generator;
     public Vector2Int connectedRoomPos;
     public MapManager manager;
     public bool IsBossRoom;
@@ -26,29 +27,38 @@ public class Room : MonoBehaviour
     [SerializeField] Teleporter teleporterPrefab;
 
     Teleporter teleporter;
-    Vector2Int positions;
-    HashSet<Vector2Int> roomTiles;
+    HashSet<Vector2Int> roomTiles; 
     HashSet<Vector2Int> wallTiles;
     Player player;
 
 
-    public void SetRoomTiles(HashSet<Vector2Int> tiles) { roomTiles = tiles; wallTiles = manager.GetSurroundingWalls(roomTiles); }
+    //we want room tiles to be created at runtime asigned by the rooms instead
+    // also we want that the floodFill works on the local tilemap rather than the global one
 
-    //[Button("YAYAYY")]
-    //void ASDS() { Debug.Log("ASDS"); }
+    public void SetRoomTiles(Vector2Int seedTile, int[,] map) 
+    {
+        Helper.GetFloodFill(map, seedTile, ((int)TileTypes.Floor), roomTiles);
+        wallTiles = manager.GetSurroundingWalls(roomTiles); 
+    }
+
+    public void SetRoomTiles(HashSet<Vector2Int> tiles)
+    {
+        roomTiles = tiles;
+        wallTiles = manager.GetSurroundingWalls(roomTiles);
+    }
 
     private void Awake()
     {
-        SimpleRandomWalkMapGenerator.EMapGenerationFinished += OnMapGenFinished;
+        RandomMapGenerator.EMapGenerationFinished += OnMapGenFinished;
     }
 
 
     private void Start()
     {
         player = UniversalConstants.inst._Player;
-        if(generator== null)
+        if(generator== null) //means the room has been plaved via a saved state
         {
-            VisualiseRoom();
+            //VisualiseRoom();
             OnMapGenFinished();
         }
 
@@ -58,18 +68,21 @@ public class Room : MonoBehaviour
 
     private void Update()
     {
-        if(roomTiles.Contains(player.transform.position.ToV2().ToV2Int()))
+        if (player != null)
         {
-            playerInRoom = true;
-            OnPlayerEntry();
-        }
-
-        if(playerInRoom)
-        {
-            if(enemySpawner.EnemyCount == 0)
+            if (roomTiles.Contains(player.transform.position.ToV2().ToV2Int()))
             {
-                roomCleared = true;
-                OnRoomClear();
+                playerInRoom = true;
+                OnPlayerEntry();
+            }
+
+            if (playerInRoom)
+            {
+                if (enemySpawner.EnemyCount == 0)
+                {
+                    roomCleared = true;
+                    OnRoomClear();
+                }
             }
         }
 
@@ -93,6 +106,7 @@ public class Room : MonoBehaviour
 
     public void OnMapGenFinished()
     {
+        Debug.Log(roomTiles.Count);
         Vector2Int tpPos = roomTiles.AtIndex<Vector2Int>(Random.Range(0, roomTiles.Count - 1));
         teleporter = Instantiate(teleporterPrefab,tpPos.ToV3(), Quaternion.identity );
         teleporter.teleportToPosition = connectedRoomPos;
@@ -126,7 +140,7 @@ public class Room : MonoBehaviour
 
     private void OnDestroy()
     {
-        SimpleRandomWalkMapGenerator.EMapGenerationFinished -= OnMapGenFinished;
+        RandomMapGenerator.EMapGenerationFinished -= OnMapGenFinished;
 
         if (!quitting)
         {

@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 // RETURNS USEFUL INFO ABOUT THE MAP BUT CANNOT EDIT IT
 public class MapManager : MonoBehaviour
 {
-    [SerializeField]SimpleRandomWalkMapGenerator mapGenerator;
+    [SerializeField]RandomMapGenerator mapGenerator;
 
 
     // Start is called before the first frame update
@@ -119,4 +119,27 @@ public class MapManager : MonoBehaviour
             
         }
     }
+
+    public void MergeRoomTilemaps(GameObject roomObj, Tilemap mergeToFloorTilemap, Tilemap mergeToColliderTilemap)
+    {
+        Room room;
+        if(!TryGetComponent<Room>(out room)) { Debug.LogWarning("Room Component not found!");return; }
+
+            foreach (Vector2Int pos in room.RoomTiles)
+            {
+                mergeToFloorTilemap.SetTile(new Vector3Int(pos.x, pos.y, 0), room.TilemapVisualiser.floorTilemap.GetTile(new Vector3Int(pos.x, pos.y, 0)));
+            }
+
+
+            foreach (Vector2Int pos in room.WallTiles)
+            {
+                mergeToColliderTilemap.SetTile(new Vector3Int(pos.x, pos.y, 0), room.TilemapVisualiser.colliderTilemap.GetTile(new Vector3Int(pos.x, pos.y, 0)));
+                mergeToFloorTilemap.SetTile(new Vector3Int(pos.x, pos.y, 0), room.TilemapVisualiser.wallTilemap.GetTile(new Vector3Int(pos.x, pos.y, 0)));
+
+            }
+            Destroy(room.TilemapVisualiser.colliderTilemap.transform.parent.gameObject);
+
+        }
+    
+
 }
